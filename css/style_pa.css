@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #ebe9e9;
+}
+
+* { box-sizing: border-box; }
+
+.pa_cifra {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+}
+
+.pa_letra {
+    font-size: 1rem;
+    color: #000000;
+    overflow-y: auto;
+    margin-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+pre {
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+
+.pa_credit {
+    position: absolute;
+    font-size: .5rem;
+    color: #FFF;
+    padding: 2px .8rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin:0;
+    bottom: 0;
+    right: 0;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.zen-dots-regular {
+    font-family: "Zen Dots", serif;
+    font-weight: 400;
+    font-style: normal;
+}
