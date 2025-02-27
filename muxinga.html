@@ -19,11 +19,34 @@
     <body>
       <header>
         <!-- Navbar simplificado resolvido -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center p-0" aria-label="Main navigation">
-          <a class="navbar-brand w-100 d-flex justify-content-center align-items-center flex-row rounded pt-1 my-1" href="#">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand  d-flex justify-content-center align-items-center flex-row rounded pt-1 my-1" href="#">
               <span class="bg-danger text-light fw-bold rounded px-1 ms-1">PA</span><i class="bi bi-paw fw-bold">tocar</i>
-          </a>
-      </nav>
+            </a>
+            <a class="d-none navbar-brand" href="#">Navbar</a>
+            <div>
+              <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Artistas
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./canto-caboclo.html">Canto Caboclo</a></li>
+                    <li><a class="dropdown-item" href="./dona-onete.html">Dona Onete</a></li>
+                    <li><a class="dropdown-item" href="./mestre-lucindo.html">Mestre Lucindo</a></li>
+                    <li><a class="dropdown-item" href="./muxinga.html">Muxinga</a></li>
+                    <li><a class="dropdown-item" href="./pinduca.html">Pinduca</a></li>
+                    <li><a class="dropdown-item" href="./verequete.html">Verequete</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contato.html">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </header>
       <main class="container">
         <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">

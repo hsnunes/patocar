@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="PAtocar">
         <meta name="author" content="pretuh_Hilder | hildersn@gmail.com">
-        <meta name="publisher" content="2025-02-19 13:22">
+        <meta name="publisher" content="2025-02-27 00:42">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
@@ -22,11 +22,35 @@
 
       <header>
       <!-- Navbar simplificado resolvido -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center p-0" aria-label="Main navigation">
-          <a class="navbar-brand w-100 d-flex justify-content-center align-items-center flex-row rounded pt-1 my-1" href="#">
-              <span class="bg-danger text-light fw-bold rounded px-1 ms-1">PA</span><i class="bi bi-paw fw-bold">tocar</i>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand  d-flex justify-content-center align-items-center flex-row rounded pt-1 my-1" href="#">
+            <span class="bg-danger text-light fw-bold rounded px-1 ms-1">PA</span><i class="bi bi-paw fw-bold">tocar</i>
           </a>
+          <a class="d-none navbar-brand" href="#">Navbar</a>
+          <div>
+            <ul class="nav nav-pills">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Artistas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./canto-caboclo.html">Canto Caboclo</a></li>
+                  <li><a class="dropdown-item" href="./dona-onete.html">Dona Onete</a></li>
+                  <li><a class="dropdown-item" href="./mestre-lucindo.html">Mestre Lucindo</a></li>
+                  <li><a class="dropdown-item" href="./muxinga.html">Muxinga</a></li>
+                  <li><a class="dropdown-item" href="./pinduca.html">Pinduca</a></li>
+                  <li><a class="dropdown-item" href="./verequete.html">Verequete</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
+
       </header>
 
       <main class="container">
@@ -52,7 +76,7 @@
       </div>
 
       <div class="alert alert-danger text-center fw-bold my-2" role="alert">
-        Atualizações diárias de conteúdo!!!
+        Atualizações de conteúdo, diárias!!!
       </div>
 
       <!-- Listagem de músicas recentes -->
@@ -68,6 +92,17 @@
                 <a href="./muxinga/sem-pitiu.html" class="text-decoration-none link-primary fw-bold">Muxinga</a>
               </div>
               <a href="./muxinga/sem-pitiu.html" class="text-decoration-none link-dark">Sem pitiú</a>
+            </div>
+          </div>
+          <div class="col d-flex">
+            <a href=canto-caboclo/cotijuba.html">
+              <img height="54" class="rounded-circle" alt="avatar1" src="./img/canto-caboclo.jpg" />
+            </a>
+            <div class="pb-3 mb-0 mx-2 small lh-sm w-100">
+              <div class="d-flex justify-content-between">
+                <a href="./canto-caboclo/cotijuba.html" class="text-decoration-none link-primary fw-bold">Canto Caboclo</a>
+              </div>
+              <a href="./canto-caboclo/cotijuba.html" class="text-decoration-none link-dark">Cotijuba</a>
             </div>
           </div>
           <div class="col d-flex">
@@ -122,6 +157,16 @@
         <h6>Artistas Recentes:</h6>
         <div class="col-6 col-md-3">
           <div class="card">
+              <a href="./canto-caboclo.html">
+              <img class="img-fluid" src="./img/canto-caboclo.jpg" alt="Artista: Canto Caboclo">
+              </a>
+              <div class="card-body text-center p-1">
+                <a href="./canto-caboclo.html" class="text-decoration-none fw-bold link-dark">Canto Caboclo</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card">
               <a href="./muxinga.html">
               <img class="img-fluid" src="./img/muxinga.jpg" alt="Artista: Muxinga">
               </a>
@@ -129,6 +174,16 @@
                 <a href="./muxinga.html" class="text-decoration-none fw-bold link-dark">Muxinga</a>
               </div>
           </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card">
+                <a href="./verequete.html">
+                <img class="img-fluid" src="./img/verequete.jpg" alt="Artista: Verequete">
+                </a>
+                <div class="card-body text-center p-1">
+                  <a href="./verequete.html" class="text-decoration-none fw-bold link-dark">Mestre Verequete</a>
+                </div>
+            </div>
         </div>
         <div class="col-6 col-md-3">
             <div class="card">
@@ -147,16 +202,6 @@
                 </a>
                 <div class="card-body text-center p-1">
                   <a href="./pinduca.html" class="text-decoration-none fw-bold link-dark">Pinduca</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-6 col-md-3">
-            <div class="card">
-                <a href="./verequete.html">
-                <img class="img-fluid" src="./img/verequete.jpg" alt="Artista: Verequete">
-                </a>
-                <div class="card-body text-center p-1">
-                  <a href="./verequete.html" class="text-decoration-none fw-bold link-dark">Mestre Verequete</a>
                 </div>
             </div>
         </div>
