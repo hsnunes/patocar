@@ -8,9 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
-
-        <title>PAtocar | Muxinga - Minha ilha (Ponta de Pedras)</title>
-
+        <title>PAtocar | Canto Caboclo</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -47,86 +45,17 @@
         <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="../index.html">Início</a></li>
-            <li class="breadcrumb-item"><a href="../muxinga.html">Muxinga</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Minha ilha</li>
+            <li class="breadcrumb-item active" aria-current="page">Canto Caboclo</li>
           </ol>
         </nav>
-
         <!-- Artista músicas -->
-        <div class="my-3">
+        <div class="my-3" id="musicasArtista">
           <div class="d-flex align-items-center">
-            <img height="75" class="rounded-circle" alt="Artista Paraense" src="../img/muxinga.jpg"/>
-            <div class="ms-2 w-100">
-              <h4 class="text-primary m-0">Muxinga</h4>
-              <p class="text-danger fw-bold">Minha ilha</p>
-            </div>
+            <img height="75" class="rounded-circle imgArtista" alt="Artista Paraense" src=""/>
+            <h4 class="text-primary m-3 w-100 tituloArtista"></h4>
           </div>
-          <article class="pa_letra">
-            <span class="font-monospace my-3">Tom: <b class="pa_cifra">Am</b></span>
-            <pre>
-<b class="pa_cifra">Am</b>
-Quanto luar no canto
-               <b class="pa_cifra">E7</b>
-Canto na beira mar
-<b class="pa_cifra">Dm</b>                <b class="pa_cifra">Am</b>
-Botos, iaras lembrando
-<b class="pa_cifra">E7</b>              <b class="pa_cifra">Am</b>
-Contos do guajará (2x)
-
-<b class="pa_cifra">Dm</b>
-Chega meu povo
-<b class="pa_cifra">Am</b>
-Vem ver de novo
-<b class="pa_cifra">E7</b>         <b class="pa_cifra">Am</b>
-O meu cantar
-<b class="pa_cifra">Dm</b>
-Festa na praça
-<b class="pa_cifra">Am</b>
-Vou ver de graça
-<b class="pa_cifra">E7</b>         <b class="pa_cifra">Am</b>
-Teu rebolar
-
-<b class="pa_cifra">Dm</b>
-Côco, uxi, manga
-<b class="pa_cifra">Am</b>
-Muxinga canta
-<b class="pa_cifra">E7</b>         <b class="pa_cifra">Am</b>
-Vem te abraçar
-<b class="pa_cifra">Dm</b>
-Sol, mangabeira
-<b class="pa_cifra">Am</b>
-Sempre a primeira
-<b class="pa_cifra">E7</b>         <b class="pa_cifra">Am</b>
-Minha ilha
-
-             <b class="pa_cifra">G</b>
-Aponta tuas pedras
-               <b class="pa_cifra">C</b>
-Pro rumo de lá
-              <b class="pa_cifra">E7</b>
-Apronta teus barcos
-           <b class="pa_cifra">Am</b>
-E vem navegar
-
-                 <b class="pa_cifra">G</b>
-Teu círio, tuas velas
-              <b class="pa_cifra">C</b>
-Teu braço de mar
-                  <b class="pa_cifra">E7</b>
-Teus filhos, tuas terras
-               <b class="pa_cifra">Am</b>
-Riquezas no olhar
-
-<b class="pa_cifra">E7</b>
-Onda me aponta
-              <b class="pa_cifra">Am</b>
-Pra ponta de pedras
-           <b class="pa_cifra">E7</b>
-Pedra me afronta
-               <b class="pa_cifra">Am</b>
-Tua concha tão bela     [2x]
-            </pre>
-          </article>
+          <ul class="list-group my-3 listaMusicas"></ul>
+          <div class="py-4"></div>
         </div>
       </main>
       <!-- Footer -->
@@ -146,12 +75,12 @@ Tua concha tão bela     [2x]
           </ul>
         </div>
       </footer>
-
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       <script src="../js/main.js"></script>
       <script>
         renderLinkArtistas(data_base, '.');
+        renderMusicasOrdemAlpha(data_base, 0);
       </script>
-
     </body>
 </html>
+

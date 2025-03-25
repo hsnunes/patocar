@@ -76,6 +76,41 @@ const data_base = [
                 genero: 'Carimbó',
                 tom: '',
                 created_at: '2025-02-10'
+            },
+            {
+                id: 11,
+                titulo: 'A camisa de murim',
+                genero: 'Carimbó',
+                tom: 'F',
+                created_at: '2025-03-25'
+            },
+            {
+                id: 12,
+                titulo: 'Boa noite senhores e senhoras',
+                genero: 'Carimbó',
+                tom: 'Fm',
+                created_at: '2025-03-25'
+            },
+            {
+                id: 13,
+                titulo: 'Lembrando o Limoeiro',
+                genero: 'Carimbó',
+                tom: 'F',
+                created_at: '2025-03-25'
+            },
+            {
+                id: 14,
+                titulo: 'Cachorro caçador',
+                genero: 'Carimbó',
+                tom: 'F',
+                created_at: '2025-03-25'
+            },
+            {
+                id: 14,
+                titulo: 'Borboleta da asa amarela',
+                genero: 'Carimbó',
+                tom: 'Fm',
+                created_at: '2025-03-25'
             }
         ]
     },
@@ -92,35 +127,28 @@ const data_base = [
                 created_at: '2025-02-10'
             },
             { 
-                id: 1,
-                titulo: 'Carimbó do macaco',
-                genero: 'Carimbó',
-                tom: '',
-                created_at: '2025-02-10'
-            },
-            { 
-                id: 1,
+                id: 2,
                 titulo: 'Sinhá Pureza',
                 genero: 'Carimbó',
                 tom: '',
                 created_at: '2025-02-10'
             },
             { 
-                id: 1,
+                id: 3,
                 titulo: 'Dança do carimbó',
                 genero: 'Carimbó',
                 tom: '',
                 created_at: '2025-02-10'
             },
             { 
-                id: 1,
+                id: 4,
                 titulo: 'Garota do tacacá',
                 genero: 'Carimbó',
                 tom: '',
                 created_at: '2025-02-10'
             },
             { 
-                id: 1,
+                id: 5,
                 titulo: 'Quem Vai o Pará, Parou',
                 genero: 'Carimbó',
                 tom: '',
@@ -468,9 +496,14 @@ const generos = [
 function renderLinkArtistas(base, sub = '') {
     let listArtists = '';
     let dropWrapper = document.querySelector('#dropArtistas');
+
+    base.sort((a, b) => {
+        return a.artista.localeCompare(b.artista);
+    });
+    
     base.forEach(el => {
         listArtists += `
-        <li><a class="dropdown-item" href=".${sub}/${cleanSlug(el.artista)}.html">${el.artista}</a></li>
+        <li><a class="dropdown-item" href=".${sub}/${cleanSlug(el.artista)}">${el.artista}</a></li>
         `;
     });
     dropWrapper.innerHTML = listArtists;
@@ -481,6 +514,31 @@ function cleanSlug(str) {
     str = str.normalize("NFD");
     str = str.replace(/[^a-zA-Z\s]/g, '');
     return str.replace(/ /g, '-');
+}
+
+function renderMusicasOrdemAlpha (vetor, id) {
+    let listMusicas = '';
+    let wrapperMusica = document.querySelector('#musicasArtista');
+    let imgArtista = document.querySelector('#musicasArtista img');
+    let tituloArtista = document.querySelector('#musicasArtista h4');
+    let artistaPath = cleanSlug(vetor[id].artista);
+
+    let musicas = vetor[id].musicas;
+    musicas.sort((a, b) => {
+        return a.titulo.localeCompare(b.titulo);
+    });
+
+    musicas.forEach(el => {
+        listMusicas += `
+            <li class="list-group-item p-2">
+              <a href="../${artistaPath}/${ cleanSlug(el.titulo) }.html" class="text-decoration-none link-primary fw-bold">${el.titulo}</a>
+            </li>
+        `;
+    });
+    imgArtista.setAttribute('src', '../img/' + vetor[id].imagem);
+    imgArtista.setAttribute('alt', 'Artista Paraense ' + vetor[id].artista);
+    tituloArtista.textContent = vetor[id].artista;
+    document.querySelector('#musicasArtista ul').innerHTML = listMusicas;
 }
 
 function renderTotal (base, generos) {

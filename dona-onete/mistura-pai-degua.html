@@ -23,7 +23,7 @@
         <!-- Navbar simplificado resolvido -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container">
-            <a class="navbar-brand  d-flex justify-content-center align-items-center flex-row rounded pt-1 my-1" href="#">
+            <a class="navbar-brand d-flex justify-content-center align-items-center flex-row rounded pt-1 my-1" href="#">
               <span class="bg-danger text-light fw-bold rounded px-1 ms-1">PA</span><i class="bi bi-paw fw-bold">tocar</i>
             </a>
             <a class="d-none navbar-brand" href="#">Navbar</a>
@@ -33,19 +33,10 @@
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Artistas
                   </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../canto-caboclo.html">Canto Caboclo</a></li>
-                    <li><a class="dropdown-item" href="../cuite-marambaia.html">Cuité Marambaia</a></li>
-                    <li><a class="dropdown-item" href="../dona-onete.html">Dona Onete</a></li>
-                    <li><a class="dropdown-item" href="../mestre-lucindo.html">Mestre Lucindo</a></li>
-                    <li><a class="dropdown-item" href="../lourival-igarape.html">Lourival Igarapé</a></li>
-                    <li><a class="dropdown-item" href="../muxinga.html">Muxinga</a></li>
-                    <li><a class="dropdown-item" href="../pinduca.html">Pinduca</a></li>
-                    <li><a class="dropdown-item" href="../verequete.html">Verequete</a></li>
-                  </ul>
+                  <ul class="dropdown-menu" id="dropArtistas"></ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./contato.html">Contato</a>
+                  <a class="nav-link" href="../contato.html">Contato</a>
                 </li>
               </ul>
             </div>
@@ -169,6 +160,11 @@ Que beleza de caboclo
       </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="../js/main.js"></script>
+      <script>
+        renderLinkArtistas(data_base, '.');
+      </script>
+
 
     </body>
 </html>
