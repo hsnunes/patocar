@@ -31,13 +31,21 @@ pre {
 
 .pa_credit {
     position: absolute;
-    font-size: .5rem;
+    width: 100%;
+    font-size: .75rem;
     color: #FFF;
     padding: 2px .8rem;
     background-color: rgba(0, 0, 0, 0.3);
     margin:0;
     bottom: 0;
     right: 0;
+}
+
+/* Tablet screens and larger */
+@media screen and (min-width: 768px) {
+  .pa_credit {
+    font-size: 1rem;
+  }
 }
 
 .nav-scroller {
