@@ -750,6 +750,34 @@ const data_base = [
                 created_at: '2025-04-01'
             }
         ]
+    },
+    {
+        id: 13,
+        artista: 'Os Africanos de Icoaraci',
+        imagem: 'os-africanos-de-icoaraci.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Curupira bicho brabo',
+                genero: 'Carimbó',
+                tom: 'G',
+                created_at: '2026-06-17'
+            },
+            {
+                id: 2,
+                titulo: 'Festa do Círio',
+                genero: 'Carimbó',
+                tom: 'A',
+                created_at: '2026-06-17'
+            },
+            {
+                id: 3,
+                titulo: 'Minha mãe',
+                genero: 'Carimbó',
+                tom: 'C',
+                created_at: '2026-06-17'
+            }
+        ]
     }
 ];
 
