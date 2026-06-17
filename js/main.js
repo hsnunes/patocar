@@ -778,6 +778,34 @@ const data_base = [
                 created_at: '2026-06-17'
             }
         ]
+    },
+    {
+        id: 14,
+        artista: 'Mestre Dikinho',
+        imagem: 'mestre-dikinho.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Águas grandes',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-06-17'
+            },
+            {
+                id: 2,
+                titulo: 'Guardião',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-06-17'
+            },
+            {
+                id: 3,
+                titulo: 'Imaginário',
+                genero: 'Carimbó',
+                tom: 'Am',
+                created_at: '2026-06-17'
+            }
+        ]
     }
 ];
 
