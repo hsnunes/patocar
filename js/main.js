@@ -806,6 +806,97 @@ const data_base = [
                 created_at: '2026-06-17'
             }
         ]
+    },
+    {
+        id: 15,
+        artista: 'Os Originais de Peixe Boi',
+        imagem: 'os-originais-de-peixe-boi.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Carimbó do medroso',
+                genero: 'Carimbó',
+                tom: 'A',
+                created_at: '2026-06-22'
+            },
+            {
+                id: 2,
+                titulo: 'Caçando Quatipuru',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-06-22'
+            },
+            {
+                id: 3,
+                titulo: 'Pra você dançar',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-06-22'
+            },
+            {
+                id: 4,
+                titulo: 'Carimbó do vovô e da vovó',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-06-22'
+            },
+            {
+                id: 5,
+                titulo: 'Ferrado de Tapiain',
+                genero: 'Carimbó',
+                tom: 'F',
+                created_at: '2026-06-22'
+            },
+            {
+                id: 6,
+                titulo: 'Atraído por uma Curupira',
+                genero: 'Carimbó',
+                tom: 'Cm',
+                created_at: '2026-06-22'
+            },
+            {
+                id: 7,
+                titulo: 'Conjunto da Mucura',
+                genero: 'Carimbó',
+                tom: 'cm',
+                created_at: '2026-06-22'
+            },
+            {
+                id: 8,
+                titulo: 'Carimbó do Gago',
+                genero: 'Carimbó',
+                tom: 'B',
+                created_at: '2026-06-22'
+            },
+            {
+                id: 9,
+                titulo: 'Rolou na maresia',
+                genero: 'Carimbó',
+                tom: 'A',
+                created_at: '2026-06-22'
+            },
+            {
+                id: 11,
+                titulo: 'Briga da cobra com o jacaré',
+                genero: 'Carimbó',
+                tom: 'Cm',
+                created_at: '2026-06-22'
+            },
+            {
+                id: 12,
+                titulo: 'Raiou o dia',
+                genero: 'Carimbó',
+                tom: 'Cm',
+                created_at: '2026-06-22'
+            },
+            {
+                id: 10,
+                titulo: 'Tem tudo na beira do mar',
+                genero: 'Carimbó',
+                tom: 'Cm',
+                created_at: '2026-06-22'
+            }
+        ]
     }
 ];
 
