@@ -897,6 +897,104 @@ const data_base = [
                 created_at: '2026-06-22'
             }
         ]
+    },
+    {
+        id: 16,
+        artista: 'Sancari',
+        imagem: 'sancari.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Barco da Saudade',
+                genero: 'Carimbó',
+                tom: 'Gm',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 2,
+                titulo: 'Reco-reco de bambu',
+                genero: 'Carimbó',
+                tom: 'Cm',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 3,
+                titulo: 'Canoa de Leme',
+                genero: 'Carimbó',
+                tom: 'C',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 4,
+                titulo: 'O som que vem do Norte',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 5,
+                titulo: 'Morena Praieira',
+                genero: 'Carimbó',
+                tom: 'Gm',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 6,
+                titulo: 'Princesa da Praia',
+                genero: 'Carimbó',
+                tom: 'A',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 7,
+                titulo: 'Na levada do Salgado',
+                genero: 'Carimbó',
+                tom: 'Cm',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 8,
+                titulo: 'Santarém meu Santarém',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 9,
+                titulo: 'Morena vamos comigo',
+                genero: 'Carimbó',
+                tom: 'Cm',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 10,
+                titulo: 'História de Princesa',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 11,
+                titulo: 'Maré de Soatá',
+                genero: 'Carimbó',
+                tom: 'F',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 12,
+                titulo: 'Cachoeira do Ararí coração do Marajó',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-06-24'
+            },
+            {
+                id: 13,
+                titulo: 'Caboclo',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-06-24'
+            }
+        ]
     }
 ];
 
