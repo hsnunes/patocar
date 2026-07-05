@@ -995,6 +995,139 @@ const data_base = [
                 created_at: '2026-06-24'
             }
         ]
+    },
+    {
+        id: 17,
+        artista: 'Curimbó de Bolso',
+        imagem: 'curimbo-de-bolso.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Espelho da Raiz',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 2,
+                titulo: 'Festa na Cidade',
+                genero: 'Carimbó',
+                tom: 'Am',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 3,
+                titulo: 'Tempo pra se amar',
+                genero: 'Carimbó',
+                tom: 'Gm',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 4,
+                titulo: 'Comida de Caboclo',
+                genero: 'Carimbó',
+                tom: 'Gm',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 5,
+                titulo: 'Kuruatá',
+                genero: 'Retumbão',
+                tom: 'E',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 6,
+                titulo: 'Mutum',
+                genero: 'Retumbão',
+                tom: 'Em',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 7,
+                titulo: 'Benzedeira',
+                genero: 'Carimbó',
+                tom: 'G',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 8,
+                titulo: 'Tipití',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 9,
+                titulo: 'Paracurí',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 10,
+                titulo: 'Mutá do igarapé',
+                genero: 'Boi Bumba',
+                tom: 'G',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 11,
+                titulo: 'Carimbó Real',
+                genero: 'Carimbó',
+                tom: 'D',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 12,
+                titulo: 'Ladainha Marajoara',
+                genero: 'ladainha',
+                tom: 'E',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 13,
+                titulo: 'Ave Cantadeira',
+                genero: 'Carimbó',
+                tom: 'G',
+                created_at: '2026-07-04'
+            }
+        ]
+    },
+    {
+        id: 18,
+        artista: 'Os Falsos do Carimbó',
+        imagem: 'os-falsos-do-carimbo.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'De cima do Rio Maguari',
+                genero: 'Carimbó',
+                tom: 'Fm',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 2,
+                titulo: 'Kutuca Jaka Kai Uxi',
+                genero: 'Carimbó',
+                tom: 'Am',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 3,
+                titulo: 'Carimbó da lua cheia',
+                genero: 'Carimbó',
+                tom: 'A',
+                created_at: '2026-07-04'
+            },
+            {
+                id: 4,
+                titulo: 'Pescador Urbano',
+                genero: 'Carimbó',
+                tom: 'F',
+                created_at: '2026-07-04'
+            }
+        ]
     }
 ];
 
