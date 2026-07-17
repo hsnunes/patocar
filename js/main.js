@@ -1128,6 +1128,216 @@ const data_base = [
                 created_at: '2026-07-04'
             }
         ]
+    },
+    {
+        id: 19,
+        artista: 'Cruzeirinho',
+        imagem: 'cruzeirinho.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Hino do Cruzeirinho',
+                genero: 'Carimbó',
+                tom: 'Bb',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 2,
+                titulo: 'Águas Grandes',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 3,
+                titulo: 'História de Pescador',
+                genero: 'Carimbó',
+                tom: 'Gm',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 4,
+                titulo: 'Preto Juvêncio',
+                genero: 'Retumbão',
+                tom: 'Am',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 5,
+                titulo: 'Coisas da Terra',
+                genero: 'Carimbó',
+                tom: 'G',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 6,
+                titulo: 'No meu Marajó tem tudo',
+                genero: 'Carimbó',
+                tom: 'Gm',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 7,
+                titulo: 'Pontos Culturais',
+                genero: 'Carimbó',
+                tom: 'Fm',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 8,
+                titulo: 'A canou afundou',
+                genero: 'Carimbó',
+                tom: 'Gm',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 9,
+                titulo: 'Olha o M da minha mão',
+                genero: 'Carimbó',
+                tom: 'Am',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 10,
+                titulo: 'Estórias de Marajó',
+                genero: 'Carimbó',
+                tom: 'Gm',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 11,
+                titulo: 'Barquinho a vela',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 12,
+                titulo: 'Carimbó da Vovó',
+                genero: 'Carimbó',
+                tom: 'Am',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 13,
+                titulo: 'Viva a Cidade de Soure',
+                genero: 'Carimbó',
+                tom: 'Am',
+                created_at: '2026-07-16'
+            }
+        ]
+    },
+    {
+        id: 20,
+        artista: 'Tambores do Pacoval',
+        imagem: 'tambores-do-pacoval.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Procópio',
+                genero: 'Boi-bumbá',
+                tom: 'Dm',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 2,
+                titulo: 'Lamento de Pescador',
+                genero: 'Boi-bumbá',
+                tom: 'Em',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 3,
+                titulo: 'Vento Porteiro',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 4,
+                titulo: 'Chão de Encantaria',
+                genero: 'Boi-bumbá',
+                tom: 'Gm',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 5,
+                titulo: 'Pasto Verde',
+                genero: 'Boi-bumbá',
+                tom: 'Gm',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 6,
+                titulo: 'Cavalo Itajara',
+                genero: 'Boi-bumbá',
+                tom: 'D',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 7,
+                titulo: 'Fundo das Águas',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 8,
+                titulo: 'Feitio Marajoara',
+                genero: 'Carimbó',
+                tom: 'G',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 9,
+                titulo: 'Imaginário',
+                genero: 'Carimbó',
+                tom: 'Am',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 10,
+                titulo: 'Bicho do Fundo',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 11,
+                titulo: 'Aí Belém',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 12,
+                titulo: 'Toadas de Bois-Bumbá',
+                genero: 'Boi-bumbá',
+                tom: 'E',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 13,
+                titulo: 'Nega Vaqueira',
+                genero: 'Boi-bumbá',
+                tom: 'C',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 14,
+                titulo: 'Menina Bonita',
+                genero: 'Boi-bumbá',
+                tom: 'E',
+                created_at: '2026-07-16'
+            },
+            {
+                id: 15,
+                titulo: 'Guardião',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-07-16'
+            }
+        ]
     }
 ];
 
