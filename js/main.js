@@ -1415,6 +1415,76 @@ const data_base = [
                 created_at: '2026-07-16'
             }
         ]
+    },
+    {
+        id: 21,
+        artista: 'Mestre Damasceno',
+        imagem: 'mestre-damasceno.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Búfalo Bumbá',
+                genero: 'Boi-bumbá',
+                tom: 'Em',
+                created_at: '2026-07-30'
+            },
+            {
+                id: 2,
+                titulo: 'Lá Vem Boi',
+                genero: 'Boi-bumbá',
+                tom: 'C',
+                created_at: '2026-07-30'
+            },
+            {
+                id: 3,
+                titulo: 'Fogo no Salão',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-07-30'
+            },
+            {
+                id: 4,
+                titulo: 'Índia Marajoara',
+                genero: 'Boi-bumbá',
+                tom: 'Dm',
+                created_at: '2026-07-30'
+            },
+            {
+                id: 5,
+                titulo: 'Quilombo do Salvá',
+                genero: 'Boi-bumbá',
+                tom: 'D',
+                created_at: '2026-07-30'
+            },
+            {
+                id: 6,
+                titulo: 'Pesca do Sirí',
+                genero: 'Boi-bumbá',
+                tom: 'D',
+                created_at: '2026-07-30'
+            },
+            {
+                id: 7,
+                titulo: 'Festa de Nazaré',
+                genero: 'Carimbó',
+                tom: 'D',
+                created_at: '2026-07-30'
+            },
+            {
+                id: 8,
+                titulo: 'Beleza Rara',
+                genero: 'Carimbó',
+                tom: 'Fm',
+                created_at: '2026-07-30'
+            },
+            {
+                id: 9,
+                titulo: 'Despedida',
+                genero: 'Carimbó',
+                tom: 'D',
+                created_at: '2026-07-30'
+            }
+        ]
     }
 ];
 
