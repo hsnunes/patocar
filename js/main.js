@@ -1485,6 +1485,83 @@ const data_base = [
                 created_at: '2026-07-30'
             }
         ]
+    },
+    {
+        id: 22,
+        artista: 'Suraras do Tapajós',
+        imagem: 'suraras-do-tapajos.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Kiribasáwa Yúri Yí-Itá',
+                genero: 'carimbó',
+                tom: 'A',
+                created_at: '2026-08-01'
+            },
+            {
+                id: 2,
+                titulo: 'Guerreira Surara',
+                genero: 'carimbó',
+                tom: 'A',
+                created_at: '2026-08-01'
+            },
+            {
+                id: 3,
+                titulo: 'Serpente Mulher',
+                genero: 'Carimbó',
+                tom: 'Am',
+                created_at: '2026-08-01'
+            },
+            {
+                id: 4,
+                titulo: 'Segredos Da Floresta',
+                genero: 'carimbó',
+                tom: 'Am',
+                created_at: '2026-08-01'
+            },
+            {
+                id: 5,
+                titulo: 'Mãos Da Esperança',
+                genero: 'carimbó',
+                tom: 'Bb',
+                created_at: '2026-08-01'
+            },
+            {
+                id: 6,
+                titulo: 'Amazônia',
+                genero: 'carimbó',
+                tom: 'Am',
+                created_at: '2026-08-01'
+            },
+            {
+                id: 7,
+                titulo: 'Batuque de Alter',
+                genero: 'carimbó',
+                tom: 'Am',
+                created_at: '2026-08-01'
+            },
+            {
+                id: 8,
+                titulo: 'O Som Do Curimbó',
+                genero: 'Carimbó',
+                tom: 'A',
+                created_at: '2026-08-01'
+            },
+            {
+                id: 9,
+                titulo: 'Suraras da beira do rio',
+                genero: 'Carimbó',
+                tom: 'Am',
+                created_at: '2026-08-01'
+            },
+            {
+                id: 10,
+                titulo: 'Filha da Encantaria',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-08-01'
+            }
+        ]
     }
 ];
 
