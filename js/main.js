@@ -1581,6 +1581,55 @@ const data_base = [
                 genero: 'Carimbó',
                 tom: 'Dm',
                 created_at: '2026-08-25'
+            },
+            {
+                id: 13,
+                titulo: 'Chegou Meu Boi',
+                genero: 'Boi-bumbá',
+                tom: 'Cm',
+                created_at: '2026-08-26 12:00:00'
+            },
+            {
+                id: 14,
+                titulo: 'Búfalo Segredo',
+                genero: 'Marchinha',
+                tom: 'Am',
+                created_at: '2026-08-26 12:01:00'
+            },
+            {
+                id: 15,
+                titulo: 'História do Marajó',
+                genero: 'Carimbó',
+                tom: 'Gm',
+                created_at: '2026-08-26 12:02:00'
+            },
+            {
+                id: 16,
+                titulo: 'Menino do Interior',
+                genero: 'Carimbó',
+                tom: 'D',
+                created_at: '2026-08-26 12:03:00'
+            },
+            {
+                id: 17,
+                titulo: 'Vou Tarrafear',
+                genero: 'Carimbó',
+                tom: 'C',
+                created_at: '2026-08-26 12:04:00'
+            },
+            {
+                id: 18,
+                titulo: 'Gaivota',
+                genero: 'Carimbó',
+                tom: 'D',
+                created_at: '2026-08-26 12:05:00'
+            },
+            {
+                id: 19,
+                titulo: 'Papa ceia',
+                genero: 'Boi-bumbá',
+                tom: 'C',
+                created_at: '2026-08-26 12:06:00'
             }
         ]
     },
@@ -1673,7 +1722,11 @@ const generos = [
     'Samba',
     'Samba Reggae',
     'Ciranda',
-    'Coco'
+    'Coco',
+    'Marchinha',
+    'Lundum',
+    'Retumbão',
+    'Xote',
 ];
 
 function renderIndex (base) {
