@@ -1709,6 +1709,125 @@ const data_base = [
                 created_at: '2026-08-01'
             }
         ]
+    },
+    {
+        id: 23,
+        artista: 'Sereia do Mar',
+        imagem: 'sereia-do-mar.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Vila Silva',
+                genero: 'carimbó',
+                tom: 'Am',
+                created_at: '2026-08-27 23:17:00'
+            },
+            {
+                id: 2,
+                titulo: 'Nós somos da Vila Silva',
+                genero: 'carimbó',
+                tom: 'Em',
+                created_at: '2026-08-27 23:18:00'
+            },
+            {
+                id: 3,
+                titulo: 'Sereia do Mar',
+                genero: 'Carimbó',
+                tom: 'C',
+                created_at: '2026-08-27 23:19:00'
+            },
+            {
+                id: 4,
+                titulo: 'Segredos Da Floresta',
+                genero: 'carimbó',
+                tom: 'Am',
+                created_at: '2026-08-27 23:20:00'
+            },
+            {
+                id: 5,
+                titulo: 'Sereia Maiandeusa',
+                genero: 'carimbó',
+                tom: 'Cm',
+                created_at: '2026-08-27 23:21:00'
+            },
+            {
+                id: 6,
+                titulo: 'Valor Feminino',
+                genero: 'carimbó',
+                tom: 'Cm',
+                created_at: '2026-08-27 23:22:00'
+            },
+            {
+                id: 7,
+                titulo: 'Na praia de Maiandeusa',
+                genero: 'carimbó',
+                tom: 'Em',
+                created_at: '2026-08-27 23:23:00'
+            },
+            {
+                id: 8,
+                titulo: 'Pila milho',
+                genero: 'Carimbó',
+                tom: 'Bb',
+                created_at: '2026-08-27 23:24:00'
+            },
+            {
+                id: 9,
+                titulo: 'Balanço do mar',
+                genero: 'Carimbó',
+                tom: 'Cm',
+                created_at: '2026-08-27 23:25:00'
+            },
+            {
+                id: 10,
+                titulo: 'Quando rompe o carimbó',
+                genero: 'Carimbó',
+                tom: 'F',
+                created_at: '2026-08-27 23:26:00'
+            },
+            {
+                id: 11,
+                titulo: 'Ingrata',
+                genero: 'Carimbó',
+                tom: 'Cm',
+                created_at: '2026-08-27 23:27:00'
+            },
+            {
+                id: 12,
+                titulo: 'Mani era uma menina',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-08-27 23:28:00'
+            },
+            {
+                id: 13,
+                titulo: 'Já cantou meu sabiá',
+                genero: 'Carimbó',
+                tom: 'Cm',
+                created_at: '2026-08-27 23:29:00'
+            },
+            {
+                id: 14,
+                titulo: 'A mulher canta o carimbó',
+                genero: 'Carimbó',
+                tom: 'C',
+                created_at: '2026-08-27 23:30:00'
+            },
+            {
+                id: 15,
+                titulo: 'Água na fonte',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-08-27 23:31:00'
+            },
+            {
+                id: 16,
+                titulo: 'Marapanim minha cidade',
+                genero: 'Carimbó',
+                tom: 'Gm',
+                created_at: '2026-08-27 23:32:00'
+            }
+        ]
     }
 ];
 
