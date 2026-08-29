@@ -307,6 +307,27 @@ const data_base = [
                 genero: 'Carimbó',
                 tom: 'Dm',
                 created_at: '2026-07-20'
+            },
+            { 
+                id: 17,
+                titulo: 'Lenda do Guaraná',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-08-29'
+            },
+            { 
+                id: 18,
+                titulo: 'Festa De Umbanda',
+                genero: 'Carimbó',
+                tom: 'Bb',
+                created_at: '2026-08-29'
+            },
+            { 
+                id: 19,
+                titulo: 'Chuva e Lágrima',
+                genero: 'Carimbó',
+                tom: 'Dm',
+                created_at: '2026-08-29'
             }
         ]
     },
