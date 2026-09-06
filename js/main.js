@@ -1849,6 +1849,104 @@ const data_base = [
                 created_at: '2026-08-27 23:32:00'
             }
         ]
+    },
+    {
+        id: 24,
+        artista: 'Filhos de Maiandeua',
+        imagem: 'filhos-de-maiandeua.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Vem dançar meu carimbó',
+                genero: 'carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:25:00'
+            },
+            {
+                id: 2,
+                titulo: 'A lenda de Maiandeua',
+                genero: 'carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:26:00'
+            },
+            {
+                id: 3,
+                titulo: 'Belém cidade morena',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:27:00'
+            },
+            {
+                id: 4,
+                titulo: 'Estrela cadente',
+                genero: 'carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:20:00'
+            },
+            {
+                id: 5,
+                titulo: 'SOS Amazônia',
+                genero: 'carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:21:00'
+            },
+            {
+                id: 6,
+                titulo: 'Matinta Pereira',
+                genero: 'carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:22:00'
+            },
+            {
+                id: 7,
+                titulo: 'O boto que encanta mulher',
+                genero: 'carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:23:00'
+            },
+            {
+                id: 8,
+                titulo: 'Metamorfose',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:24:00'
+            },
+            {
+                id: 9,
+                titulo: 'Índio guerreiro',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:25:00'
+            },
+            {
+                id: 10,
+                titulo: 'Água de coco',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:26:00'
+            },
+            {
+                id: 11,
+                titulo: 'Carimbó Patrimônio Brasileiro',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:27:00'
+            },
+            {
+                id: 12,
+                titulo: 'Carimbó na beira do mar',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:28:00'
+            },
+            {
+                id: 13,
+                titulo: 'Blá blá blá',
+                genero: 'Carimbó',
+                tom: 'E',
+                created_at: '2026-09-05 13:29:00'
+            }
+        ]
     }
 ];
 
