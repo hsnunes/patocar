@@ -2024,6 +2024,188 @@ const data_base = [
                 created_at: '2026-09-05 13:37:00'
             }
         ]
+    },
+    {
+        id: 26,
+        artista: 'Chico Braga',
+        imagem: 'chico-braga.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'O galo cantador',
+                genero: 'carimbó',
+                tom: 'Am',
+                created_at: '2026-09-05 22:43:00'
+            },
+            {
+                id: 2,
+                titulo: 'Uma estrela brilhou',
+                genero: 'carimbó',
+                tom: 'Fm',
+                created_at: '2026-09-05 22:44:00'
+            },
+            {
+                id: 3,
+                titulo: 'Maiandeua é uma ilha',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 22:45:00'
+            },
+            {
+                id: 4,
+                titulo: 'Lago da princesa',
+                genero: 'carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 22:46:00'
+            },
+            {
+                id: 5,
+                titulo: 'Minha praia é linda',
+                genero: 'carimbó',
+                tom: 'C',
+                created_at: '2026-09-05 22:47:00'
+            },
+            {
+                id: 6,
+                titulo: 'Pássaro colhereira',
+                genero: 'carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 22:48:00'
+            },
+            {
+                id: 7,
+                titulo: 'Sereia Iemanja',
+                genero: 'carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 22:49:00'
+            },
+            {
+                id: 8,
+                titulo: 'Na areia escrevi teu nome',
+                genero: 'Carimbó',
+                tom: 'Am',
+                created_at: '2026-09-05 22:50:00'
+            },
+            {
+                id: 9,
+                titulo: 'Chico Braga mora na praia',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 22:51:00'
+            },
+            {
+                id: 10,
+                titulo: 'Carimbó Fest',
+                genero: 'Carimbó',
+                tom: 'F',
+                created_at: '2026-09-05 22:52:00'
+            },
+            {
+                id: 11,
+                titulo: 'Camboinha',
+                genero: 'Carimbó',
+                tom: 'F',
+                created_at: '2026-09-05 22:53:00'
+            },
+            {
+                id: 12,
+                titulo: 'São Jorge mora na lua',
+                genero: 'Carimbó',
+                tom: 'Am',
+                created_at: '2026-09-05 22:54:00'
+            },
+            {
+                id: 13,
+                titulo: 'Ei do lado de lá',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 22:55:00'
+            },
+            {
+                id: 14,
+                titulo: 'Eu subi a duna',
+                genero: 'Carimbó',
+                tom: 'C',
+                created_at: '2026-09-05 22:56:00'
+            },
+            {
+                id: 15,
+                titulo: 'Marapanim',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 22:57:00'
+            },
+            {
+                id: 16,
+                titulo: 'Eu cheguei em Algodoal',
+                genero: 'Carimbó',
+                tom: 'C',
+                created_at: '2026-09-05 22:58:00'
+            },
+            {
+                id: 17,
+                titulo: 'Pendurado no cipó',
+                genero: 'Carimbó',
+                tom: 'G',
+                created_at: '2026-09-05 22:59:00'
+            },
+            {
+                id: 18,
+                titulo: 'Onde mora o rei',
+                genero: 'Carimbó',
+                tom: 'G',
+                created_at: '2026-09-05 23:00:00'
+            },
+            {
+                id: 19,
+                titulo: 'O maior compositor',
+                genero: 'Carimbó',
+                tom: 'G',
+                created_at: '2026-09-05 23:01:00'
+            },
+            {
+                id: 20,
+                titulo: 'Girar o mundo inteiro',
+                genero: 'Carimbó',
+                tom: 'Fm',
+                created_at: '2026-09-05 23:02:00'
+            },
+            {
+                id: 21,
+                titulo: 'Mostrar onde moro',
+                genero: 'Carimbó',
+                tom: 'Fm',
+                created_at: '2026-09-05 23:02:00'
+            },
+            {
+                id: 22,
+                titulo: 'Ai Alemanha',
+                genero: 'Carimbó',
+                tom: 'F',
+                created_at: '2026-09-05 23:03:00'
+            },
+            {
+                id: 23,
+                titulo: 'No ritmo do carimbó',
+                genero: 'Carimbó',
+                tom: 'F',
+                created_at: '2026-09-05 23:04:00'
+            },
+            {
+                id: 24,
+                titulo: 'O sol brilhou',
+                genero: 'Carimbó',
+                tom: 'Fm',
+                created_at: '2026-09-05 23:05:00'
+            },
+            {
+                id: 25,
+                titulo: 'Zezinho trás a canoa',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 23:06:00'
+            }
+        ]
     }
 ];
 
