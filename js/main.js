@@ -2222,7 +2222,7 @@ const data_base = [
             {
                 id: 2,
                 titulo: 'Lavadeiras',
-                genero: 'carimbó',
+                genero: 'Lundum',
                 tom: 'Am',
                 created_at: '2026-09-06 00:01:00'
             },
@@ -2236,7 +2236,7 @@ const data_base = [
             {
                 id: 4,
                 titulo: 'Roda Carimbozeira',
-                genero: 'carimbó',
+                genero: 'Lundum',
                 tom: 'Em',
                 created_at: '2026-09-06 00:03:00'
             },
