@@ -2206,6 +2206,55 @@ const data_base = [
                 created_at: '2026-09-05 23:06:00'
             }
         ]
+    },
+    {
+        id: 27,
+        artista: 'Carimbó Tamaruteua',
+        imagem: 'carimbo-tamaruteua.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'É Tamaruteua',
+                genero: 'carimbó',
+                tom: 'G',
+                created_at: '2026-09-06 00:00:00'
+            },
+            {
+                id: 2,
+                titulo: 'Lavadeiras',
+                genero: 'carimbó',
+                tom: 'Am',
+                created_at: '2026-09-06 00:01:00'
+            },
+            {
+                id: 3,
+                titulo: 'Carimbó Tamaruteua',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-09-06 00:02:00'
+            },
+            {
+                id: 4,
+                titulo: 'Roda Carimbozeira',
+                genero: 'carimbó',
+                tom: 'Em',
+                created_at: '2026-09-06 00:03:00'
+            },
+            {
+                id: 5,
+                titulo: 'As maracas do rei',
+                genero: 'carimbó',
+                tom: 'Em',
+                created_at: '2026-09-06 00:04:00'
+            },
+            {
+                id: 6,
+                titulo: 'Chico Braga é demais',
+                genero: 'carimbó',
+                tom: 'Am',
+                created_at: '2026-09-06 00:05:00'
+            }
+        ]
     }
 ];
 
