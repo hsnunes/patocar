@@ -1892,7 +1892,7 @@ const data_base = [
             },
             {
                 id: 6,
-                titulo: 'Matinta Pereira',
+                titulo: 'Blá blá blá',
                 genero: 'carimbó',
                 tom: 'E',
                 created_at: '2026-09-05 13:22:00'
@@ -1941,10 +1941,87 @@ const data_base = [
             },
             {
                 id: 13,
-                titulo: 'Blá blá blá',
+                titulo: 'Matinta Pereira',
                 genero: 'Carimbó',
                 tom: 'E',
                 created_at: '2026-09-05 13:29:00'
+            }
+        ]
+    },
+    {
+        id: 25,
+        artista: 'Zezinho Vianna',
+        imagem: 'zezinho-vianna.jpg',
+        musicas: [
+            {
+                id: 1,
+                titulo: 'Viva São Sebastião',
+                genero: 'carimbó',
+                tom: 'Dm',
+                created_at: '2026-09-05 21:28:00'
+            },
+            {
+                id: 2,
+                titulo: 'Cachoeira e seus encantos',
+                genero: 'carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 13:29:00'
+            },
+            {
+                id: 3,
+                titulo: 'Toada de pescador',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 13:30:00'
+            },
+            {
+                id: 4,
+                titulo: 'Mastro Bastião',
+                genero: 'carimbó',
+                tom: 'Dm',
+                created_at: '2026-09-05 13:31:00'
+            },
+            {
+                id: 5,
+                titulo: 'Fazenda Espírito Santo',
+                genero: 'carimbó',
+                tom: 'Am',
+                created_at: '2026-09-05 13:32:00'
+            },
+            {
+                id: 6,
+                titulo: 'Marajó',
+                genero: 'carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 13:33:00'
+            },
+            {
+                id: 7,
+                titulo: 'Saudade louca',
+                genero: 'carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 13:34:00'
+            },
+            {
+                id: 8,
+                titulo: 'Falar de ti, Cachoeira',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 13:35:00'
+            },
+            {
+                id: 9,
+                titulo: 'Caboclo',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 13:36:00'
+            },
+            {
+                id: 10,
+                titulo: 'Invernada Marajoara',
+                genero: 'Carimbó',
+                tom: 'Em',
+                created_at: '2026-09-05 13:37:00'
             }
         ]
     }
